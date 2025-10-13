@@ -1,0 +1,386 @@
+body{
+    height: 100%;
+    margin: 0;
+    background-color:    #f1f5f9;
+    font-family:"Roboto",sans-serif ;
+    
+}
+.container{
+    margin-left: 60px;
+    margin-right: 60px;
+    background-color:  #f1f5f9;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-top: 30px;
+    height: 100px;
+}
+.logo{
+   width: 200px;
+   height: auto;
+}
+.linkbar{
+    display: flex;
+    gap: 20px;
+    padding-top:7px ;
+    margin-right: 500px;
+}
+.linkbar a{
+    color: black;
+    font-size: 18px;
+    text-decoration: none;
+}
+.linkbar a:hover{
+    color:  #645cff;
+}
+.btn{
+    width: 100px;
+    height: 35px;
+    border: none;
+    background-color:#645cff;
+    color:white;
+    font-size:17px ;
+    border-radius: 0.25rem;
+}
+.btn:hover{
+    background-color:#3c3799 ;
+}
+
+.herotxt{
+    display:flex;
+    gap: 0px;
+    color: white;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(/image/main.jpeg);
+
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 0.25rem;
+    height: 230px;
+}
+.herotxt .h1,
+.herotxt p{
+    margin: 0;
+}
+.herotxt .h1{
+    font-size: 65px;
+}
+.herotxt p{
+    font-size: 25px;
+    margin-top: 10px;
+    
+}
+.box1{
+    display: flex;
+    flex-direction: column;
+    margin-top:40px ;
+    gap: 10px;
+
+}
+.box1 a{
+    color:  #64748b;
+    text-decoration: none;
+
+}
+.box1 a:hover{
+    color: #645cff;
+}
+.box1 .h4{
+    font-size: 30px;
+}
+.box1 .h4 ,
+.box1 a{
+    margin: 0;
+}
+.box2 .h5{
+    color:  #334155;
+    font-size: 18px;
+}
+.box2 a{
+    text-decoration: none;
+}
+.box2 p{
+    color:  #64748b;
+    font-size: 15px;
+    
+}
+.box2 img{
+    width: 300px;
+    height: 170px;
+    object-fit: cover;
+    border-radius: 0.25rem;
+} 
+
+.box2 {
+    display: grid;
+    grid-template-columns:repeat(3,1fr);
+    gap: 25px;
+}
+
+.Recipe .h5,
+.Recipe p{
+    margin: 0;
+}
+.Recipe .h5{
+    margin-top: 10px;
+}
+.Recipe p{
+    margin-top: 5px;
+}
+.footerpa{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    margin-top: 40px;
+    background-color:  #222;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 4rem;
+    font-size: 18px;
+}
+.bigbox{
+    display: flex;
+    gap: 95px;
+    padding-top: 40px;
+}
+.foot{
+    color:#645cff ;
+}
+.footerpa a{
+    color: #645cff;
+    text-decoration: none;
+}
+.abtimg img{
+    width:500px ;
+    height:400px;
+    border-radius: 0.25rem;
+   object-fit: cover;
+}
+.hbox{
+   display: flex;
+   justify-content: space-between;
+
+}
+.abthd h1{
+    font-size: 45px;
+}
+.abthd p{
+    font-size:18px ;
+}
+.p3{
+    font-size: 30px;
+    
+}
+.box4{
+    display: grid;
+    grid-template-columns:repeat(3,1fr);
+    gap: 20px;
+}
+.box4 img{
+    width: 360px;
+    height: 170px;
+    object-fit: cover;
+    border-radius: 0.25rem;
+}
+.box4 a{
+    text-decoration: none;
+}
+.box4 h5{
+    color: #334155;
+    font-size: 18px;
+}
+.box4 p{
+    color:  #64748b;
+}
+.btn2{
+    width:350px ;
+    height:80px ;
+    color: white;
+    font-size: 20px;
+    background-color:  #64748b ;
+    border: none;
+    border-radius: 0.25rem;
+}
+.btn2:hover{
+    background-color:  #645cff;
+}
+.boxtag{
+    height: 100px;
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+     gap: 20px;
+}
+.maintag{
+    height: 350px;
+}
+.titre{
+    font-size: 35px;
+}
+.formcnt{
+    background-color:white;
+    border-radius: 0.25rem;
+    width: 400px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-left: 50px;
+    padding-top: 40px;
+}
+.subbtn{
+    width: 360px;
+    height: 30px;
+    color: white;
+    background-color: #645cff;
+    border-style: none;
+    font-size: 18px;
+    box-shadow:  0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+.for{
+    width: 350px;
+    height: 30px;
+    border-radius: 0.24rem;
+
+    border-color:   #f1f5f9;
+    background-color:   #f1f5f9;;
+    border-style: none ;
+
+}
+.cntbox{
+    display: flex;
+    justify-content: space-between;
+}
+.txtcnt{
+    font-size: 13px;
+}
+.comment{
+    background-color: #f1f5f9;
+    border: none;
+}
+.hbox{
+    display: flex;
+    gap: 50px;
+}
+.hedimg{
+    width:500px ;
+    height:300px;
+    object-fit: cover;
+    margin-top: 70px;
+}
+.hbox2{
+    display:grid;
+    grid-template-columns:repeat(3,1fr) ;
+    gap: 20px;
+    
+}
+.hbox2 i {
+    padding-left: 80px
+}
+.p1{
+    font-size: 17px;
+    line-height: 30px;
+    color: #334155;
+
+}
+.hbox h5, .hbox p{
+    margin: 0;
+}
+.hbox h1{
+    font-size: 43px;
+}
+.hbox2 h5{
+    margin-top: 10px;
+    padding-left: 70px;
+}
+.hbox2 p{
+    margin-top: 3px;
+    padding-left: 75px;
+}
+.tagbox{
+    padding-top: 30px;
+    display: flex;
+    gap: 15px;
+}
+.tagbox button{
+    border: none;
+    color: white;
+    background-color: #645cff;
+    border-radius: 5px;
+    height: 25px;
+    
+}
+.secbox{
+    padding-top: 40px;
+    display: flex;
+     gap: 200px;
+}
+
+.sec1box h3{
+    color: #645cff;  
+
+}
+.p4{
+    color:  #334155;
+    font-size: 18px;
+    
+}
+.p6 {
+    
+    font-size: 18px;
+    color: #334155;
+    border-bottom:solid #cbd5e1  ;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    
+}
+.p5{
+    font-size: 18px;
+    color: #645cff;
+    border-bottom:solid  #cbd5e1 ;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    display: 300px;
+}
+.step{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.step .line{
+    flex: 1;
+    border-bottom: solid #cbd5e1 2px;
+}
+.lp{
+    font-size: 28px;
+    padding-top: 0px;
+}
+.lastbox img{
+    width:370px ;
+    height:170px ;
+    object-fit: cover;
+    border-radius:0.25 ;
+}
+.lastbox .h5{
+ color: #334155;
+ font-size:20px ;
+ font-weight: bolder;
+}
+.lastbox a{
+   text-decoration: none;
+}
+.lastbox p{
+    color: #64748b;
+}
+.lastbox{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 25px;
+}

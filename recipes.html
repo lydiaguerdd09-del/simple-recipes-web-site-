@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipes</title>
+    <link  rel="shortcut icon" href="./image/favicon.ico" type="imagr/x icon" />
+
+    <link  rel="stylesheet" href="./css/main.css" />
+
+    <link  rel="stylesheet" href="./css/normalize.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+        <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+     <div class="container">
+      <nav class="nav"> 
+        <div class="navbar">
+            
+          <div>
+              <a  href=" index.html" >
+                 <img  src="./image/logo.svg" class="logo" >
+              </a>
+          </div>
+
+          <div class="linkbar">
+               <a href="index.html">Home</a>
+               <a href="about.html">About</a>
+               <a href="tags.html">Tags</a>
+               <a href="recipes.html">Recipes</a>
+          </div>
+
+           
+          <a href="contact.html" >
+              <button class="btn" > Contact </button>
+          </a>
+        </div>
+      </nav>
+    <section class="bigbox" >
+             <div class="box1">
+                 <p class="h4">Recipes</p>
+              
+                 <a href="tag-recipe.html">Beef (1)</a>
+                 <a href="tag-recipe.html">Breakfast (2)</a>
+                 <a href="tag-recipe.html">Carrots (3)</a>
+                 <a href="tag-recipe.html">Food (4)</a>
+                 
+              </div>
+            
+              <div class="box2">
+                   <a href="single-recipe.html"  class="Recipe">
+                     <img src="./image/recipe-1.jpeg">
+                     <p class="h5">Carne Asada</p>
+                     <p> prep: 15min | cook: 5min</p>
+                   </a>
+
+                   <a href="single-recipe.html"  class="Recipe">
+                     <img src="./image/recipe-2.jpeg">
+                     <p class="h5">Greek Ribs</p>
+                     <p> prep: 15min | cook: 5min</p>
+                   </a>
+
+                   <a href="single-recipe.html"  class="Recipe">
+                     <img src="./image/recipe-3.jpeg">
+                     <p class="h5">Vegetable Soup </p>
+                     <p> prep: 15min | cook: 5min</p>
+                   </a>
+
+                   <a href="single-recipe.html"  class="Recipe">
+                     <img src="./image/recipe-4.jpeg">
+                     <p class="h5">Banana Pancakes</p>
+                     <p> prep: 15min | cook: 5min</p>
+                   </a>
+
+             </div>
+        </section>
+    </div>
+    <footer>
+       
+       <p class="footerpa">
+          &copy;&nbsp;<span id="year" ></span> 
+          &nbsp;<span class="foot"> Simply Recipes</span>
+          &nbsp;Built by &nbsp;<a href="https://github.com/lydiaguerdd09-del" target="_blank">Lydia Guerd</a>
+       </p> 
+   </footer>
+   <script>
+    document.getElementById("year").textContent= new Date().getFullYear();
+   </script>
+
+</body>
+</html>

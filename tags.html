@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tags</title>
+    <link  rel="shortcut icon" href="./image/favicon.ico" type="imagr/x icon" />
+
+    <link  rel="stylesheet" href="./css/main.css" />
+
+    <link  rel="stylesheet" href="./css/normalize.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+   <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+  <div class="container">
+    <nav class="nav"> 
+      <div class="navbar">
+           
+          <div>
+              <a  href=" index.html" >
+                 <img  src="./image/logo.svg" class="logo" >
+              </a>
+          </div>
+
+          <div class="linkbar">
+               <a href="index.html">Home</a>
+               <a href="about.html">About</a>
+               <a href="tags.html">Tags</a>
+               <a href="recipes.html">Recipes</a>
+          </div>
+
+           
+          <a href="contact.html" >
+              <button class="btn" > Contact </button>
+          </a>
+           
+      </div>
+    </nav>
+    <main class="maintag">
+        <div class="boxtag">
+            <a href="tag-recipe.html">
+                 <button class="btn2">Beef <br> 1 recipe </button>
+            </a>
+            <a href="tag-recipe.html">
+                 <button class="btn2">Breakfast <br> 2 recipe </button>
+            </a>
+            <a href="tag-recipe.html">
+                 <button class="btn2">Carrots <br> 3 recipe </button>
+            </a>
+            <a href="tag-recipe.html">
+                 <button class="btn2">Dinner <br> 4 recipe </button>
+            </a>
+            <a href="tag-recipe.html">
+                 <button class="btn2">Food <br> 1 recipe </button>
+            </a>
+        </div> 
+    </main>
+  </div>
+    <footer>
+       
+       <p class="footerpa">
+          &copy;&nbsp;<span id="year" ></span> 
+          &nbsp;<span class="foot"> Simply Recipes</span>
+          &nbsp;Built by &nbsp;<a href="https://github.com/lydiaguerdd09-del" target="_blank">Lydia Guerd</a>
+       </p> 
+   </footer>
+   <script>
+    document.getElementById("year").textContent= new Date().getFullYear();
+   </script>
+</body>
+</html>

@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Single Recipe</title>
+     <link  rel="shortcut icon" href="./image/favicon.ico" type="imagr/x icon" />
+
+    <link  rel="stylesheet" href="./css/main.css" />
+
+    <link  rel="stylesheet" href="./css/normalize.css" />
+     <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+   <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+  </head>
+<body>
+    <div class="container">
+     <nav class="nav"> 
+        <div class="navbar">
+            
+          <div>
+              <a  href=" index.html" >
+                 <img  src="./image/logo.svg" class="logo" >
+              </a>
+          </div>
+
+          <div class="linkbar">
+               <a href="index.html">Home</a>
+               <a href="about.html">About</a>
+               <a href="tags.html">Tags</a>
+               <a href="recipes.html">Recipes</a>
+          </div>
+
+           
+          <a href="contact.html" >
+              <button class="btn" > Contact </button>
+          </a>
+        </div>
+      </nav>
+      <main>
+          <header >
+            <div class="hbox">
+              <img  src="image/recipe-4.jpeg" class="hedimg">
+              <div>
+                  <h1>Banana Pancakes</h1>
+                  <p class="p1">Shabby chic humblebrag banh mi bushwick, banjo kale chips meggings. Cred<br> selfies sartorial, cloud bread disrupt blue bottle seitan. Dreamcatcher tousled bitters,<br> health goth vegan venmo whatever street art lyft shabby chic pitchfork beard. <br> Drinking vinegar poke tbh, iPhone coloring book polaroid truffaut tousled ramps pug<br> trust fund letterpress. Portland four loko austin chicharrones bitters single-origin<br> coffee. Leggings letterpress occupy pour-over.</p>
+                  <div class="hbox2">
+                    <div class="clock">
+                       
+                         <i class="fas fa-clock fa-2x" style="color:#645cff; width: 100px;" ></i>
+                       
+                         <h5>prep time</h5>
+                         <p class="p2">30 min</p>
+                    </div>
+                    <div>
+                       
+                         <i class="far fa-clock fa-2x" style="color: #645cff;" ></i>
+                       
+                         <h5>Cook Time</h5>
+                         <p class="p2">15 min</p>
+                    </div>
+                    <div>
+                       
+                         <i class="fas fa-users fa-2x" style="color: #645cff;"></i>
+                      
+                         <h5>Serving</h5>
+                         <p class="p2">6 servings</p>
+                    </div>
+                  </div>
+                  <div class=" tagbox">
+                    <p> Tags :</p>
+                    
+                    <a href="">
+                       <button>Beef</button>
+                    </a>
+                     <a href="">
+                       <button class="tagbtn">Breakfast</button>
+                    </a>
+                     <a href="">
+                       <button>Pancakes</button>
+                    </a>
+                     <a href="">
+                       <button>Food</button>
+                    </a>
+                  </div>
+                </div>
+            </div>
+          </header>
+          <section class="secbox">
+               <div class="sec1box">
+                     <div class="p3">
+                        <p>Instructions</p>
+                     </div>
+                      <div > 
+                        <div class="step">
+                           <h3>STEP 1</h3>
+                           <div class="line"></div>
+                        </div>
+                        <p class="p4">I'm baby mustache man braid fingerstache small batch venmo succulents shoreditch.</p>
+                      </div>
+                      <div>
+                        <div class="step">
+                          <h3>STEP 2</h3>
+                          <div class="line"></div>
+                        </div>
+                        <p class="p4">Pabst pitchfork you probably haven't heard of them, asymmetrical seitan tousled <br>succulents wolf banh mi man bun bespoke selfies freegan ethical hexagon.</p>
+                      </div>
+                      <div>
+                        <div class="step">
+                           <h3>STEP 3</h3>
+                           <div class="line"></div>
+                        </div>
+                         <p class="p4">Polaroid iPhone bitters chambray. Cornhole swag kombucha live-edge.</p>
+                      </div>
+
+               </div>
+               <div class="sec2box">
+                  <div class="sec3box">
+                     <div class="p3"><p>Ingredients</p></div>
+                     <div >
+                         <div class="p6">
+                            <p c> 1 1/2 cups dry pancake mix</p>
+                         </div>
+                         <div class="p6">
+                            <p>1/2 cup flax seed meal</p>
+                         </div>
+                         <div class="p6">
+                            <p>1 cup skim milk</p>
+                         </div>
+                     </div>
+   
+                  </div>
+                  <div>
+                         <div class="p3"><p>Tools</p></div>
+                         <div>
+                            <p class="p5">Hand Blender</p>
+                         </div>
+                         <div>
+                            <p class="p5">Large Heavy Pot With Lid</p>
+                         </div>
+                         <div>
+                            <p class="p5">Measuring Spoons</p>
+                         </div>
+                         <div>
+                            <p class="p5">Measuring Cups</p>
+                         </div>
+                  </div>
+               </div>
+          </section>
+      </main>
+    </div>
+     <footer>
+      <p class="footerpa">
+          &copy;&nbsp;<span id="year" ></span> 
+          &nbsp;<span class="foot"> Simply Recipes</span>
+          &nbsp;Built by &nbsp;<a href="https://github.com/lydiaguerdd09-del" target="_blank">Lydia Guerd</a>
+       </p> 
+   </footer>
+   <script>
+    document.getElementById("year").textContent= new Date().getFullYear();
+   </script>
+</body>
+</html>

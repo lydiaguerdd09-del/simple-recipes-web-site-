@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link  rel="shortcut icon" href="./image/favicon.ico" type="imagr/x icon" />
+    <title>Contact</title>
+     <link  rel="shortcut icon" href="./image/favicon.ico" type="imagr/x icon" />
+
+    <link  rel="stylesheet" href="./css/main.css" />
+
+    <link  rel="stylesheet" href="./css/normalize.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  <div class="container">
+    <nav class="nav"> 
+        <div class="navbar">
+            
+          <div>
+              <a  href=" index.html" >
+                 <img  src="./image/logo.svg" class="logo" >
+              </a>
+          </div>
+
+          <div class="linkbar">
+               <a href="index.html">Home</a>
+               <a href="about.html">About</a>
+               <a href="tags.html">Tags</a>
+               <a href="recipes.html">Recipes</a>
+          </div>
+
+           
+          <a href="contact.html" >
+              <button class="btn" > Contact </button>
+          </a>
+        </div>
+      </nav>
+    <main>
+         <header class="cntbox">
+            <DIV>
+               <P class="titre">Want To Get In Touch?</P>
+               <P>Four dollar toast biodiesel plaid salvia actually pickled banjo bespoke mlkshk<BR> intelligentsia edison bulb synth.</P>
+               <P>Cardigan prism bicycle rights put a bird on it deep v.</P>
+               <P>Hashtag swag health goth air plant, raclette listicle fingerstache cold-pressed fanny<BR> pack bicycle rights cardigan poke.</P>
+            </DIV>
+          <form class="formcnt">
+              <DIV >
+                 <div>
+                    <label for="frame" class="txtcnt">Your Name</label>
+                 </div>
+                 <div>
+                    <input type="text" id="frame" class="for">
+                 </div>
+              </DIV>
+              <DIV >
+                 <div>
+                    <label for="hot" class="txtcnt">Your Email</label>
+                 </div>
+                 <div>
+                    <input type="email" id="hot"  class="for">
+                 </div>
+              </DIV>
+              <DIV>
+                  <div class="txtcnt">
+                     Message
+                  </div>
+                  <div>
+                     <textarea  rows="6" cols="46"  class="comment" ></textarea>
+                  </div>
+              </DIV>
+              <div >
+                  <input type="submit" value="submit" class="subbtn">
+              </div>
+            </form>
+         </header>
+         <section class="box">
+             <div class="p3"><p >Look At This Awesomesouce !</p></div>
+            <div class="box4">
+                  <a href="single-recipe.html"  class="Recipe">
+                     <img src="./image/recipe-1.jpeg">
+                     <h5>Carne Asada</h5>
+                     <p> prep: 15min | cook: 5min</p>
+                   </a>
+
+                   <a href="single-recipe.html"  class="Recipe">
+                     <img src="./image/recipe-2.jpeg">
+                     <h5>Greek Ribs</h5>
+                     <p> prep: 15min | cook: 5min</p>
+                   </a>
+
+                   <a href="single-recipe.html"  class="Recipe">
+                     <img src="./image/recipe-3.jpeg">
+                     <h5>Vegetable Soup </h5>
+                     <p> prep: 15min | cook: 5min</p>
+                   </a>
+            </div>
+      </section>
+    </main>
+ </div>
+ <footer>
+       
+       <p class="footerpa">
+          &copy;&nbsp;<span id="year" ></span> 
+          &nbsp;<span class="foot"> Simply Recipes</span>
+          &nbsp;Built by &nbsp;<a href="https://github.com/lydiaguerdd09-del" target="_blank">Lydia Guerd</a>
+       </p> 
+   </footer>
+   <script>
+    document.getElementById("year").textContent= new Date().getFullYear();
+   </script>
+
+</body>
+</html>
