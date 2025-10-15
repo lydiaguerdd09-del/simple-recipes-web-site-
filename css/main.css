@@ -63,6 +63,7 @@ body{
 .herotxt .h1,
 .herotxt p{
     margin: 0;
+    color: white;
 }
 .herotxt .h1{
     font-size: 65px;
@@ -70,6 +71,7 @@ body{
 .herotxt p{
     font-size: 25px;
     margin-top: 10px;
+    
     
 }
 .box1{
